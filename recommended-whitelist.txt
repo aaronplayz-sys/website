@@ -1,0 +1,107 @@
+! Last modified: 8/6/2022
+!
+! These are domains (or websites) that I believe that should be whitelisted incase of false positive('s).
+! Please feel free to change or modify this list to your liking.
+!
+! Link Shortners
+@@||t.ly^*
+@@||www.bit.ly^*
+@@||tinyurl.com^*
+!
+! EA/Origin (content delivery & cloudsync(savegame-sync))
+@@||cdn.optimizely.com^*
+@@||cdn2.optimizely.com^*
+@@||cdn3.optimizely.com^*
+@@||cloudsync-prod.s3.amazonaws.com^*
+!
+! Shopify (blocked in some lists)
+@@||s.shopify.com^*
+!
+! Honey & it's Cashback Trackers
+@@||joinhoney.com*$document
+@@||joinhoney.com*$elemhide
+@@||joinhoney.com^*
+@@||joinhoney.com^*$~third-party
+@@||honey.io^*
+!
+! Amazon AWS 
+@@||amazonaws.com^*
+@@||s3.amazonaws.com^*
+!
+! cloudflare
+@@||cdnjs.cloudflare.com^*
+@@||cdn.cloudflare.net^*
+!
+! Github
+@@||github.com^*
+@@||github.io^*
+!
+! Microsoft login related
+@@||live.com^*
+@@||g.live.com^*
+@@||login.live.com^*
+@@||login.microsoftonline.com^*
+@@||notify.xboxlive.com^*
+@@||office.com^*
+@@||office.net^*
+@@||office365.com^*
+@@||officeclient.microsoft.com^*
+@@||onedrive.live.com^*
+@@||outlook.live.com^*
+@@||outlook.office365.com^*
+@@||www.msftconnecttest.com^*
+!
+! Whitelisting my personal website & sites I manage (blocked on some lists, no clue why)
+@@||aaronplayzgaming.gq^*
+@@||aquaclan.cf^$important
+@@||aquadive.gq^*
+!
+! Allow doubleclick clickthrough (ios)
+@@||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
+!
+! Fix nordpass/protomail clickthrough on ios
+@@/aff_c?offer_id=
+@@?offer_id=*&aff_id=
+!
+! uBO-redirect work around wyse.com (https://github.com/uBlockOrigin/uAssets/commit/7ee72dd4d6a641c040b9098f11006cb6c53b05ba)
+@@||wyze.com^$script,first-party
+!
+! Broken search on https://www.capitalone.com/search
+@@||nexus.ensighten.com/capitalone/Bootstrap.js$script,domain=capitalone.com
+!
+! Trustpilot
+@@||widget.trustpilot.com^*
+!
+! brave.com specfic filters
+@@||ads.brave.software^$first-party
+@@||ads-admin.bravesoftware.com^$first-party
+@@||ads.bravesoftware.com^$first-party
+@@||search.brave.com/api/$first-party
+@@||ads-admin.brave.com^$first-party
+@@||ads-admin.brave.software^$first-party
+@@||ads.brave.com^$first-party
+@@||brave.com^$image,stylesheet,first-party
+!
+! Stream provider: Streamtape (Blocked by StevenBlack)
+@@||streamtape.com^*
+! World of tanks (some lists prevents images and updates from being fetched)
+@@||wguscs-wotcom.wargaming.net^*
+@@||static-wguscs-wotcom.wargaming.net^*
+@@||wguscs-wgcna.wargaming.net^*
+!
+! Arc.io CDN (Blocked by OISD blocklist full)
+@@||arc.io^*
+!
+! Banking
+@@||hscoscdn20.net^*
+!
+! 9anime (a trustworthy anime streaming site, using a adblocker is advised)
+@@||www.9anime.id^*
+@@||9anime.id^*
+@@||9anime.to^*
+@@||www.9anime.to
+!
+! fmovies (a trustworthy movie & show streaming site)
+@@||fmovies.to^*
+@@||myflixer.to^*
+@@||myflixer.com^*

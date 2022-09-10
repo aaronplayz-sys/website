@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-7-10
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Added my homemade whitelist. You read more about it in this blog post [here](https://aaronplayzgaming.com/blog/2022/make_a_whitelist/)
