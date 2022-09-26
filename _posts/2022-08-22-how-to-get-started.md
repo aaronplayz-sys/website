@@ -20,4 +20,4 @@ If you don't have the resources or don't want to have to pay a monthly fee a ras
 
 After you got your raspberrypi 4, you can tinker around with it and do stuff like running your own wordpress website off of it. There's alot of opportunity with this credit card sized board. If you want inspiration or some guides go ahead and check out Pi [My Life Up](https://pimylifeup.com/), they have DIY projects, tutorials, and guides articles. I used that site myself!
 
-> Written with [StackEdit](https://stackedit.io/).
+> You can read Part 2 [here](https://aaronplayzgaming.com/blog/2022/how-to-get-started-pt2).
