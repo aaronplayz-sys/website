@@ -2,7 +2,7 @@
 layout: post
 title: How to get started in IT! Part 1
 date: 2022-08-17
-description: Here I'll explain how you or anyone can easily get started in exploring IT, to make it easy I broke this into parts
+description: Here I explain about Virtual Machines and how handy they can be.
 tags: IT, Raspberrypi
 categories: posts
 ---
