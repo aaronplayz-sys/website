@@ -1,4 +1,4 @@
-! Last modified: 8/6/2022
+! Last modified: 10/20/2022
 !
 ! These are domains (or websites) that I believe that should be whitelisted incase of false positive('s).
 ! Please feel free to change or modify this list to your liking.
@@ -105,3 +105,6 @@
 @@||fmovies.to^*
 @@||myflixer.to^*
 @@||myflixer.com^*
+!
+! One Drive (short domain) (blocked by OSID full)
+@@||1drv.ms^*
