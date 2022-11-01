@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: aaronplayzgaming.com
+Token: 34e85e43e5e2cc2c82360ffe6d5d8950cdb9d11025913e5f4cee850babaa02f5

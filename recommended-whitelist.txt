@@ -51,11 +51,6 @@
 @@||outlook.office365.com^*
 @@||www.msftconnecttest.com^*
 !
-! Whitelisting my personal website & sites I manage (blocked on some lists, no clue why)
-@@||aaronplayzgaming.gq^*
-@@||aquaclan.cf^$important
-@@||aquadive.gq^*
-!
 ! Allow doubleclick clickthrough (ios)
 @@||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 !
