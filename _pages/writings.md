@@ -1,16 +1,16 @@
 ---
 layout: page
-permalink: /writing/
-title: writing
+permalink: /writings/
+title: writings
 description: As of 2022, I was in college and took composition. So I decided to post em here!
 nav: true
 nav_order: 4
-display_categories: [Writing]
+display_categories: [Writings]
 horizontal: true
 ---
 
 <!-- pages/projects.md -->
-<div class="writings">
+<div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
