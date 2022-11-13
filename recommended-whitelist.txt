@@ -107,3 +107,6 @@
 ! Allow Twitter links
 @@||www.t.com^*
 @@||t.co^*
+!
+! ThePirateBay (VPN is strongly encuraged)
+@@||thepiratebay.org^*
