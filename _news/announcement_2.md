@@ -4,4 +4,4 @@ date: 2022-6-30
 inline: true
 ---
 
-I added a new project in [https://aaronplayzgaming.com/projects](https://aaronplayzgaming.com/projects) & a [cv page](https://aaronplayzgaming.com/cv)
+I added a new project in [https://aaronplayzgaming.com/projects](https://aaronplayzgaming.com/projects)
