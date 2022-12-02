@@ -112,3 +112,5 @@
 @@||thepiratebay.org^*
 !
 @@||track.honorsocietymail.org^*
+!
+@@||ndg106.infusionsoft.com^*
