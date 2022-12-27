@@ -19,3 +19,6 @@ The leader of the group asked me if I knew how to build a website. I said "I do.
 
 ![](https://www.aaronplayzgaming.com/assets/img/Screenshot 2022-12-27 122126.png)
 
+The image above is what the google site's front page looks like when you visit [this URL](https://sites.google.com/view/mesmeryearbook/home).
+
+As I said before, I am making a simular clone. But as of time of writing (12/27/2022) the website is not 100% ready, building & customizing websites no matter the complexity takes time. This page will be updated when I do complete to my liking :)
