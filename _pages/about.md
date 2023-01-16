@@ -15,7 +15,7 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2db70e67-cff7-46ea-bcd9-452f0ac82941/deploy-status)](https://app.netlify.com/sites/timely-mandazi-be33df/deploys)
+[![Netlify Deploy Status](https://api.netlify.com/api/v1/badges/2db70e67-cff7-46ea-bcd9-452f0ac82941/deploy-status)](https://app.netlify.com/sites/timely-mandazi-be33df/deploys)
 
 I am always looking interesting topic, projects, etc...
 
