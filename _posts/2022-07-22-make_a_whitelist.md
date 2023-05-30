@@ -13,7 +13,7 @@ If your familiar with ad blockers then this is what it is essentially. A list (s
 
 The reason why I recommend that you make your own whitelist is because certain websites that you visit or your app that connects to the internet may be blocked by whatever extension or adblocking server. I had my fair share of this. My bank, yes seriously my bank! My bank has their domain CNAME to another server that my AdGuard Home instance blocks, of course there is a built in whitelist function but blacklists have a priority over the built in whitelist. Same thing happened to a game. So I decided to make my own whitelist that is dedicated to my needs since only my devices are configured to use the dns server in my household. Making the whitelist pretty much tells the adblocker or in my case my AdGuard Home server to allow the domains I specify to be processed.
 
-## So how can I make my own whitelist?   
+## So how can I make my own whitelist?
 
 It's quite easy if I'm being honest, once you know the rules for adblocking. Don't know? It's OK. Here's the documentation that should work for most adblock extensions & servers like AdGuard home: [https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#introduction](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#introduction)
 
