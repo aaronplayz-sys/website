@@ -23,10 +23,12 @@
       institution: Orange Technical College, Winter Park, FL
       year: 2022
       description:
-        - 
         - title: Relevant Coursework
           contents:
             - Enterprise Desktop and Mobile Support
+    - title: AS Degree (in progress)
+      institution: Valencia College
+      year: 2022-now
 
 # - title: Experience
 #   type: time_table
@@ -79,6 +81,9 @@
     - year: unknown
       items: 
         - 2 ND place in STEM competition
+    - year: 2023
+      items:
+        - Joined Phi Theta Kappa Honor Society!
 
 # - title: Academic Interests
 #   type: nested_list
