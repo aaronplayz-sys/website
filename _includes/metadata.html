@@ -21,11 +21,11 @@
     {% if page.url == '/blog/index.html' %}
         {{ site.blog_nav_title }} | {{ title }}
     {%- elsif page.title != "blank" and page.url != "/" -%}
-    {%- if page.title == nil or page.title == "" -%}
-    {{ page.date | date: "%Y" }} | {{ title }}
-{%- else -%}
-    {{ page.title }} | {{ title }}
-{%- endif -%}
+        {%- if page.title == nil or page.title == "" -%}
+            {{ page.date | date: "%Y" }} | {{ title }}
+        {%- else -%}
+            {{ page.title }} | {{ title }}
+        {%- endif -%}
     {%- else -%}
         {{ title }}
     {%- endif -%}
@@ -121,6 +121,10 @@
     {%- endif -%}
     {%- if site.wikidata_id -%}
         {%- capture link -%}https://www.wikidata.org/wiki/{{ site.wikidata_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.wikipedia_id -%}
+        {%- capture link -%}https://wikipedia.org/wiki/User:{{ site.wikipedia_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if site.strava_userid -%}
