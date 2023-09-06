@@ -1,4 +1,4 @@
-! Last modified: 6/26/2023
+! Last modified: 9/6/2023
 ! Note: This is updated as needed for my personal usage.
 !
 ! These are domains (or websites) that I believe that should be whitelisted incase of false positive('s).
@@ -66,15 +66,8 @@
 @@||wguscs-wgcna.wargaming.net^*
 ! Banking
 @@||hscoscdn20.net^*
-! 9anime (a trustworthy anime streaming site, using a adblocker is advised)
-@@||www.9anime.id^*
-@@||9anime.id^*
-@@||9anime.to^*
-@@||www.9anime.to
 ! fmovies (a trustworthy movie & show streaming site)
 @@||fmovies.to^*
-@@||myflixer.to^*
-@@||myflixer.com^*
 ! One Drive (short domain) (blocked by OSID full)
 @@||1drv.ms^*
 ! Allow Twitter links
@@ -84,6 +77,28 @@
 @@||track.honorsocietymail.org^*
 @@||ndg106.infusionsoft.com^*
 @@||play.pretzel.rocks^*
-@@||vlscppe.microsoft.com^*
 @@||cdn.cookielaw.org^*
-@@||www.facebook.com^*
+! Facebook/Instagram
+@@||graph.facebook.com^*
+@@||graph.instagram.com^*
+@@||i.instagram.com^*
+@@||b-graph.facebook.com^*
+! Apple
+@@||xp.apple.com^*
+@@||smoot.apple.com^*
+@@||amp-api-edge.apps.apple.com^*
+@@||amp-api-search-edge.apps.apple.com^*
+! Windows
+@@||settings-win.data.microsoft.com^*
+! Xiaomi (for device updates)
+@@||update.intl.miui.com^*
+! Nest
+@@||logsink.devices.nest.com^*
+! Zoom
+@@||logfiles.zoom.us^*
+@@||us04logfiles.zoom.us^*
+@@||us04zpns.zoom.us^*
+! YouTube history
+@@||s.youtube.com^*
+!epic games launcher
+@@||eulatracking-public-service-prod06.ol.epicgames.com^*
