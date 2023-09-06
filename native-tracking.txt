@@ -66,3 +66,18 @@
 ||logservice-drru.dt.hicloud.com^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
+! Roku
+||logs.roku.com
+! Samsung
+||nmetrics.samsung.com^
+||insights.samsung.com^
+||analytics.samsungknox.com^
+||bigdata.ssp.samsung.com^
+! Sonos
+||msmetrics.ws.sonos.com^
+||msmetrics-test.ws.sonos.com^
+! Windows
+||vortex-win.data.microsoft.com^
+||vortex.data.microsoft.com^
+||vortex.data.microsoft.com.akadns.net^
+||vortex-sandbox.data.microsoft.com^
