@@ -84,6 +84,7 @@
     - year: 2023
       items:
         - Joined Phi Theta Kappa Honor Society!
+        - Inducted into Phi Theta Kappa on October 5th 2023.
 
 # - title: Academic Interests
 #   type: nested_list
@@ -106,3 +107,4 @@
   type: list
   contents:
     - Basic knowledge of HTML, Basic knowledge of Python, Basic knowledge of JavaScript, Experienced in using Linux, Installation and maintenance of CMS system (e.g. WordPress), Computer maintenance (e.g. updating drivers), Installation and maintenance of DNS system (e.g. Pi-hole), Installation of a proxy server (e.g. Nginx Proxy Manager), Installation of a cluster (e.g. Proxmox)
+    - r

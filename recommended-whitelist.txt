@@ -104,3 +104,5 @@
 @@||eulatracking-public-service-prod06.ol.epicgames.com^*
 ! Netlify (some lists breaks viewing of dashboard)
 @@||netlify-rum.netlify.app^*
+! raspberrypi.org archive (Adguard Home Parental Control for some reason blocks this) (fix updates on raspberrypi)
+@@||archive.raspberrypi.org^*
