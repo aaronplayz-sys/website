@@ -175,8 +175,15 @@ collections:
     output: true
     permalink: /web-development/:path/
 
-news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news:
+  enabled: true
+  scrollable: true
+  limit: 5
+
+  latest_posts:
+    enabled: true
+    scrollable: true
+    limit: 3
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
