@@ -266,6 +266,8 @@ jekyll-archives:
 
 display_tags: ['IT', 'Raspberrypi', 'how-to', 'Docker', 'Code'] # this tags will be dispalyed on the front page of your blog
 
+display_categories: ['test']
+
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
