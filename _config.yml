@@ -84,6 +84,7 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
+scopus_id: #profile on Scopus
 blogger_url: # your blogger URL
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
