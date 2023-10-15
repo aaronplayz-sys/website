@@ -26,10 +26,6 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # Theme
 # -----------------------------------------------------------------------------
 
-# code highlighter theme
-highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
-
 # repo color theme
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
@@ -240,6 +236,9 @@ defaults:
     values:
       sitemap: false
 
+sass:
+  style: compressed
+
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
@@ -373,17 +372,8 @@ enable_progressbar:         true   # enables a horizontal progress bar linked to
 # Library versions
 # -----------------------------------------------------------------------------
 
-academicons:
-  version: "1.9.1"
-  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
-bootstrap:
-  version: "4.6.1"
-  integrity:
-    css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
-    js: "sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8="
-fontawesome:
-  version: "5.15.4"
-  integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
+bootstrap-table:
+  version: "1.22.1"
 jquery:
   version: "3.6.0"
   integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -400,3 +390,24 @@ mdb:
 medium_zoom:
   version: "1.0.8"
   integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
+
+# -----------------------------------------------------------------------------
+# Get external JSON data
+# -----------------------------------------------------------------------------
+
+jekyll_get_json:
+  - data: resume
+    json: assets/json/resume.json # it can also be an url
+jsonresume:
+  - basics
+  - work
+  - education
+  - publications
+  - projects
+  - volunteer
+  - awards
+  - certificates
+  - skills
+  - languages
+  - interests
+  - references
