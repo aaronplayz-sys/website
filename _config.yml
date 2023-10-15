@@ -172,7 +172,7 @@ collections:
     output: true
     permalink: /web-development/:path/
 
-news:
+announcements:
   enabled: true
   scrollable: true
   limit: 5
