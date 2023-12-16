@@ -8,4 +8,14 @@ categories: posts
 toc:
   sidebar: left
 ---
-init
+## Assumptions
+
+Before we get started, there are a few things that I assume you have on hand, have the knowledge of and are comfortable doing.
+
+- Know the layout of your UEFI/BIOS menu
+- Boot override
+- A dedicated drive to install your choice of Linux distribution
+
+## Downloading the ISO
+
+First, you want to navigate to your choice of Linux distribution website and save the `ISO file` somewhere you can `easily find` it. For this guide, I am going to use Nobara Linux as an example.
