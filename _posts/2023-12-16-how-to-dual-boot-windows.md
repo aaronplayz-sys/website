@@ -30,3 +30,11 @@ First, you want to navigate to your choice of Linux distribution website and sav
 <div class="caption">
   Nobara's downloads page
 </div>
+
+## Flashing the ISO to thumb drive
+
+To keep it simple, we are going to use balena etcher to write our image (the ISO file) to our thumb drive aka USB stick.
+
+Go to [https://etcher.balena.io/](https://etcher.balena.io/) and download the installer, then open the file and install the application as normal, accept all defaults.
+
+After installing balena etcher, go ahead and insert your thumb drive into your computer, then open the app
