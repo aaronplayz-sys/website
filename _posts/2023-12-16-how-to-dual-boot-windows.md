@@ -22,7 +22,9 @@ Before we get started, there are a few things that I assume you have on hand, ha
 First, you want to navigate to your choice of Linux distribution website and save the `ISO file` somewhere you can `easily find` it. For this guide, I am going to use Nobara Linux as an example.
 
 {% include figure.html path="assets/img/how-to-dual-boot-windows/nobara-homepage.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-Nobara homepage
+<div class="caption">
+  Nobara homepage
+</div>
 
 {% include figure.html path="assets/img/how-to-dual-boot-windows/nobara-downloads.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 Nobara's downloads
