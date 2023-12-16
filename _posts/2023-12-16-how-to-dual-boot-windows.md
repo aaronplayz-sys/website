@@ -29,7 +29,7 @@ First, you want to navigate to your choice of Linux distribution website and sav
 </div>
 
 <div>
-  {% include figure.html path=“assets/img/how-to-dual-boot-windows/nobara-downloads.png” class=“img-fluid rounded z-depth-1” zoomable=true %}
+  {% include figure.html path=“assets/img/how-to-dual-boot-windows/nobara-downloads.png” class=“img-fluid rounded z-depth-1” zoomable=true %} 
 </div>
 <div class="caption">
   Nobara's Download page
