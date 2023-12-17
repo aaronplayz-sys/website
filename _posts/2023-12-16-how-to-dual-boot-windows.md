@@ -37,4 +37,14 @@ To keep it simple, we are going to use balena etcher to write our image (the ISO
 
 Go to [https://etcher.balena.io/](https://etcher.balena.io/) and download the installer, then open the file and install the application as normal, accept all defaults.
 
-After installing balena etcher, go ahead and insert your thumb drive into your computer, then open the app
+{% include figure.html path="assets/img/how-to-dual-boot-windows/balena-etcher-download-page.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+  balena etcher's download section
+</div>
+
+After installing balena etcher, go ahead and insert your thumb drive into your computer, then open the app if it is not yet open already.
+
+{% include figure.html path="assets/img/how-to-dual-boot-windows/balena-etcher.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+  The application should look like this when open
+</div>
