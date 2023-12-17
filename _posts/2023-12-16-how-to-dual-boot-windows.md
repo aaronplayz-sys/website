@@ -65,3 +65,20 @@ Click on "Flash from file" button and locate your downloaded ISO file and click 
 <div class="caption"> 
   Screenshot's for reference
 </div>
+
+Before you continue, if you have any data on your thumb drive that you like to keep, now would be the time to back it by simply copying your files either to a cloud storage or to another folder. Click on "Select target" and choose your flash drive, then click on select to confirm. Then click on "Flash!".
+
+<div class="row mt-3"> 
+  <div class="col-sm mt-3 mt-md-0"> 
+    {% include figure.html path="assets/img/how-to-dual-boot-windows/choose-drive.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/how-to-dual-boot-windows/flash.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption"> 
+  Screenshot's for reference
+</div>
+
+## Installing the OS
+
+Congrats, you just flashed an operating system to your thumb drive, yay! Now time to install that operating system to your spare drive.
