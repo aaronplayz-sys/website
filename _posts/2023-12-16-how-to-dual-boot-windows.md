@@ -48,3 +48,20 @@ After installing balena etcher, go ahead and insert your thumb drive into your c
 <div class="caption">
   The application should look like this when open
 </div>
+
+Click on "Flash from file" button and locate your downloaded ISO file and click open.
+
+<div class="row mt-3"> 
+  <div class="col-sm mt-3 mt-md-0"> 
+    {% include figure.html path="assets/img/how-to-dual-boot-windows/flash-from-file.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0"> 
+    {% include figure.html path="assets/img/how-to-dual-boot-windows/select-file.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0"> 
+    {% include figure.html path="assets/img/how-to-dual-boot-windows/selected-file.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+<div class="caption"> 
+  Screenshot's for reference
+</div>
