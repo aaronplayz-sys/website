@@ -103,3 +103,9 @@ Once you are successfully booted off your thumb drive, you should see an applica
 </div>
 
 Set up your location and keyboard to your liking, when it comes to where you want to install the operating system to a drive, be sure to select your spare drive and **not** the drive that has your windows' installation. From there, you can choose if you want the drive to be encrypted or what not, and finish the installation of your new operating system.
+
+# That's all!
+
+Now that you have installed the operating system of your choice to a dedicated drive, can you just choose what operating system you want to use when you turn on your computer. Personally I use the menu selection that's built-in with my motherboard, I believe there are other ways of doing this, butt that's how I like to do it.
+
+I hope you found this guide to be helpful, feel free to take a look at my other works and writings.
