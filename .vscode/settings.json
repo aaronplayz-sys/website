@@ -1,0 +1,11 @@
+{
+    "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
+        " balen",
+        " nobar",
+        "balena",
+        "img",
+        "img-fluid",
+        "nobara",
+        "norbara"
+    ]
+}

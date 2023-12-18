@@ -5,6 +5,8 @@ date: 2022-09-25
 description: Here I'll explain how you or anyone can easily get started in exploring IT, to make it easy I broke this into parts
 tags: IT, Virtual-Machine, VM, how-to
 categories: posts
+toc:
+  sidebar: left
 ---
 
 ## Welcome back to How to get started in IT! Part 2
