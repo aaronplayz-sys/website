@@ -2,8 +2,10 @@
 layout: cv
 permalink: /cv/
 title: cv
-nav: false
-nav_order: 3
+nav: true
+nav_order: 5
 cv_pdf: Aaron_Khan_resume.pdf
-desceiption: desc for pdf
+description: This is my resume. Please note that information in this page may not be up to date, same goes for the PDF.
+toc:
+  sidebar: left
 ---
