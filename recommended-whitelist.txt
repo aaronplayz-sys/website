@@ -106,3 +106,5 @@
 @@||netlify-rum.netlify.app^*
 ! raspberrypi.org archive (Adguard Home Parental Control for some reason blocks this) (fix updates on raspberrypi)
 @@||archive.raspberrypi.org^*
+! Adguard email link redirect
+@@||email-link.adtidy.org^*
