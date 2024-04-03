@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: A chill dude on the internet.
+subtitle: A chill dude who likes to tinker and explore tech.
 
 profile:
   align: right

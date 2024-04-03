@@ -66,7 +66,7 @@ Click on "Flash from file" button and locate your downloaded ISO file and click 
   Screenshot's for reference
 </div>
 
-Before you continue, if you have any data on your thumb drive that you like to keep, now would be the time to back it by simply copying your files either to a cloud storage or to another folder. Click on "Select target" and choose your flash drive, then click on select to confirm. Then click on "Flash!".
+Before you continue, if you have any data on your thumb drive that you like to keep, now would be the time to back it by simply copying your files either to a cloud storage or to another folder on your computer. Click on "Select target" and choose your flash drive, then click on select to confirm. Then click on "Flash!".
 
 <div class="row mt-3"> 
   <div class="col-sm mt-3 mt-md-0"> 
@@ -99,13 +99,13 @@ Once you are successfully booted off your thumb drive, you should see an applica
   </div>
 </div>
 <div class="caption"> 
-  Screenshot's for reference, note this being done on a vm for quality sake
+  Screenshot's for reference, note this being done on a VM(Virtual Machine) for quality sake
 </div>
 
 Set up your location and keyboard to your liking, when it comes to where you want to install the operating system to a drive, be sure to select your spare drive and **not** the drive that has your windows' installation. From there, you can choose if you want the drive to be encrypted or what not, and finish the installation of your new operating system.
 
 # That's all!
 
-Now that you have installed the operating system of your choice to a dedicated drive, can you just choose what operating system you want to use when you turn on your computer. Personally I use the menu selection that's built-in with my motherboard, I believe there are other ways of doing this, butt that's how I like to do it.
+Now that you have installed the operating system of your choice to a dedicated drive, can you just choose what operating system you want to use when you turn on your computer. Personally I use the menu selection that's built-in with my motherboard, I believe there are other ways of doing this, but that's how I like to do it.
 
 I hope you found this guide to be helpful, feel free to take a look at my other works and writings.
