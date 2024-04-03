@@ -74,6 +74,15 @@
     - title: ESB (Entrepreneurship and Small Business) Certified
       year: 2022
       description: Entrepreneurship and Small Business is a certification from Certiport, sponsored by Intuit and the Network for Teaching Entrepreneurship, that ensures tomorrow's leaders are prepared with the toolkit they need to get ahead in today's competitive landscape.
+    - title: Operations Support and Services
+      year: 2023
+      description: Prepares students for entry level employment in the area of operations support and/or to provide supplemental training for persons previously or currently employed in this area. The content includes but is not limited to communication skills, supervision skills, employability skills, and general business procedures and operation. Issued by Valencia College.
+    - title: Computer Information Technology Specialist
+      year: 2023
+      description: Prepares students with foundation skills in computer maintenance, network essentials and database management. Issued by Valencia College.
+    - title: Computer Information Data Specialist
+      year: 2023
+      description: prepares students with foundation skills in computer maintenance, network essentials and database management. Issued by Valencia College.
 
 - title: Honors and Awards
   type: time_table
@@ -102,8 +111,23 @@
 #   contents:
 #     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
 
-- title: Additional Skills
+- title: Skills
   type: list
   contents:
-    - Basic knowledge of HTML, Basic knowledge of Python, Basic knowledge of JavaScript, Experienced in using Linux, Installation and maintenance of CMS system (e.g. WordPress), Computer maintenance (e.g. updating drivers), Installation and maintenance of DNS system (e.g. Pi-hole), Installation of a proxy server (e.g. Nginx Proxy Manager), Installation of a cluster (e.g. Proxmox)
-    - Test
+    - Windows Server
+    - Basic knowledge of HTML
+    - Basic knowledge of Python
+    - Basic knowledge of JavaScript
+    - Experienced in using Linux
+    - Installation and maintenance of CMS system (e.g. WordPress)
+    - Computer maintenance (e.g. updating drivers)
+    - Installation and maintenance of DNS system (e.g. Pi-hole)
+    - Installation of a reverse proxy server (e.g. Nginx Proxy Manager)
+    - Installation of a cluster (e.g. Proxmox)
+    - Computer Hardware Installation (e.g. Installing a CPU)
+    - Project Management
+    - Database Management
+    - Web Development
+    - Network Security
+    - VMware Workstation
+    - Active Directory
