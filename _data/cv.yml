@@ -30,7 +30,7 @@
       institution: Valencia College
       year: 2022-now
       description:
-        - title: Relevant Coursework
+       - title: Relevant Coursework
         contents:
         - Cisco Network Essentials
         - Install and configure Window Server
