@@ -29,6 +29,11 @@
     - title: AS Degree (in progress)
       institution: Valencia College
       year: 2022-now
+      description:
+        -title: Relevant Coursework
+        contents:
+        - Cisco Network Essentials
+        - Install and configure Window Server
 
 # - title: Experience
 #   type: time_table
@@ -114,20 +119,26 @@
 - title: Skills
   type: list
   contents:
-    - Windows Server
     - Basic knowledge of HTML
+    - Basic knowledge of Markdown
     - Basic knowledge of Python
     - Basic knowledge of JavaScript
     - Experienced in using Linux
-    - Installation and maintenance of CMS system (e.g. WordPress)
-    - Computer maintenance (e.g. updating drivers)
-    - Installation and maintenance of DNS system (e.g. Pi-hole)
-    - Installation of a reverse proxy server (e.g. Nginx Proxy Manager)
-    - Installation of a cluster (e.g. Proxmox)
-    - Computer Hardware Installation (e.g. Installing a CPU)
+    - Experienced in using a static site generator
+    - Installation and maintenance of CMS system (e.g., WordPress)
+    - Computer maintenance (e.g., updating drivers)
+    - Installation and maintenance of DNS system (e.g., Pi-hole)
+    - Installation of a reverse proxy server (e.g., Nginx Proxy Manager)
+    - Installation of a cluster (e.g., Proxmox)
+    - Configurating a load balancer in AWS
+    - Configuring a static website in S3 in AWS
+    - Install & configure Windows server 2019
+    - Critical thinking and problem-solving skills using Cisco Packet Tracer
+    - Verify and troubleshoot network and Internet connectivity
+    - Adding a removing object on Active Directory
+    - Install and configure Active Directory Certificate Services
     - Project Management
     - Database Management
     - Web Development
     - Network Security
     - VMware Workstation
-    - Active Directory
