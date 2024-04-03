@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of all the things I did.
 nav: true
 nav_order: 2
-display_categories: [Writings, Fun, Other]
+display_categories: [Fun, Other]
 horizontal: false
 ---
 
