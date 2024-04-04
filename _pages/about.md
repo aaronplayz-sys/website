@@ -6,7 +6,7 @@ subtitle: A chill dude who likes to tinker and explore tech.
 
 profile:
   align: right
-  image: Logo.png
+  image: 1646861196357.jpg
   image_cicular: true # crops the image to make it circular
   address: >
     <p></p>
