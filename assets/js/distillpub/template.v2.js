@@ -3011,8 +3011,8 @@ d-citation-list .references .title {
 
   	if (!_.disableWorkerMessageHandler) {
   		// In worker
-  		_self.addEventListener('message', function (evt) {
-  			var message = JSON.parse(evt.data),
+  		_self.addEventListener('message', function (event) {
+  			var message = JSON.parse(event.data),
   				lang = message.language,
   				code = message.code,
   				immediateClose = message.immediateClose;
@@ -5392,7 +5392,7 @@ p small {
   }
 
   function rgb_formatRgb() {
-    var a = this.opacity; a = isNaN(a) ? 1 : Math.max(0, Math.min(1, a));
+    var a = this.opacity; a = Number.isNaN(a) ? 1 : Math.max(0, Math.min(1, a));
     return (a === 1 ? "rgb(" : "rgba(")
         + Math.max(0, Math.min(255, Math.round(this.r) || 0)) + ", "
         + Math.max(0, Math.min(255, Math.round(this.g) || 0)) + ", "
@@ -5460,7 +5460,7 @@ p small {
     },
     rgb: function() {
       var h = this.h % 360 + (this.h < 0) * 360,
-          s = isNaN(h) || isNaN(this.s) ? 0 : this.s,
+          s = Number.isNaN(h) || Number.isNaN(this.s) ? 0 : this.s,
           l = this.l,
           m2 = l + (l < 0.5 ? l : 1 - l) * s,
           m1 = 2 * l - m2;
@@ -5472,12 +5472,12 @@ p small {
       );
     },
     displayable: function() {
-      return (0 <= this.s && this.s <= 1 || isNaN(this.s))
+      return (0 <= this.s && this.s <= 1 || Number.isNaN(this.s))
           && (0 <= this.l && this.l <= 1)
           && (0 <= this.opacity && this.opacity <= 1);
     },
     formatHsl: function() {
-      var a = this.opacity; a = isNaN(a) ? 1 : Math.max(0, Math.min(1, a));
+      var a = this.opacity; a = Number.isNaN(a) ? 1 : Math.max(0, Math.min(1, a));
       return (a === 1 ? "hsl(" : "hsla(")
           + (this.h || 0) + ", "
           + (this.s || 0) * 100 + "%, "
@@ -5542,8 +5542,8 @@ p small {
     },
     rgb: function() {
       var y = (this.l + 16) / 116,
-          x = isNaN(this.a) ? y : y + this.a / 500,
-          z = isNaN(this.b) ? y : y - this.b / 200;
+          x = Number.isNaN(this.a) ? y : y + this.a / 500,
+          z = Number.isNaN(this.b) ? y : y - this.b / 200;
       x = Xn * lab2xyz(x);
       y = Yn * lab2xyz(y);
       z = Zn * lab2xyz(z);
@@ -5592,7 +5592,7 @@ p small {
   }
 
   function hcl2lab(o) {
-    if (isNaN(o.h)) return new Lab(o.l, 0, 0, o.opacity);
+    if (Number.isNaN(o.h)) return new Lab(o.l, 0, 0, o.opacity);
     var h = o.h * deg2rad;
     return new Lab(o.l, Math.cos(h) * o.c, Math.sin(h) * o.c, o.opacity);
   }
@@ -5653,9 +5653,9 @@ p small {
       return new Cubehelix(this.h, this.s, this.l * k, this.opacity);
     },
     rgb: function() {
-      var h = isNaN(this.h) ? 0 : (this.h + 120) * deg2rad,
+      var h = Number.isNaN(this.h) ? 0 : (this.h + 120) * deg2rad,
           l = +this.l,
-          a = isNaN(this.s) ? 0 : this.s * l * (1 - l),
+          a = Number.isNaN(this.s) ? 0 : this.s * l * (1 - l),
           cosh = Math.cos(h),
           sinh = Math.sin(h);
       return new Rgb(
@@ -5687,13 +5687,13 @@ p small {
 
   function gamma(y) {
     return (y = +y) === 1 ? nogamma : function(a, b) {
-      return b - a ? exponential(a, b, y) : constant(isNaN(a) ? b : a);
+      return b - a ? exponential(a, b, y) : constant(Number.isNaN(a) ? b : a);
     };
   }
 
   function nogamma(a, b) {
     var d = b - a;
-    return d ? linear(a, d) : constant(isNaN(a) ? b : a);
+    return d ? linear(a, d) : constant(Number.isNaN(a) ? b : a);
   }
 
   var rgb$1 = (function rgbGamma(y) {
@@ -5770,7 +5770,7 @@ p small {
     if (a === null || typeof a !== "object") a = {};
     if (b === null || typeof b !== "object") b = {};
 
-    for (k in b) {
+    for (let k in b) {
       if (k in a) {
         i[k] = interpolate(a[k], b[k]);
       } else {
@@ -5779,7 +5779,7 @@ p small {
     }
 
     return function(t) {
-      for (k in i) c[k] = i[k](t);
+      for (let k in i) c[k] = i[k](t);
       return c;
     };
   }
@@ -5856,7 +5856,7 @@ p small {
         : b instanceof Date ? date
         : isNumberArray(b) ? numberArray
         : Array.isArray(b) ? genericArray
-        : typeof b.valueOf !== "function" && typeof b.toString !== "function" || isNaN(b) ? object
+        : typeof b.valueOf !== "function" && typeof b.toString !== "function" || Number.isNaN(b) ? object
         : interpolateNumber)(a, b);
   }
 
@@ -5885,7 +5885,7 @@ p small {
   function normalize(a, b) {
     return (b -= (a = +a))
         ? function(x) { return (x - a) / b; }
-        : constant$1(isNaN(b) ? NaN : 0.5);
+        : constant$1(Number.isNaN(b) ? NaN : 0.5);
   }
 
   function clamper(a, b) {
@@ -5956,7 +5956,7 @@ p small {
     }
 
     function scale(x) {
-      return isNaN(x = +x) ? unknown : (output || (output = piecewise(domain.map(transform), range, interpolate$1)))(transform(clamp(x)));
+      return Number.isNaN(x = +x) ? unknown : (output || (output = piecewise(domain.map(transform), range, interpolate$1)))(transform(clamp(x)));
     }
 
     scale.invert = function(y) {
@@ -6218,7 +6218,7 @@ p small {
           var valueNegative = value < 0 || 1 / value < 0;
 
           // Perform the initial formatting.
-          value = isNaN(value) ? nan : formatType(Math.abs(value), precision);
+          value = Number.isNaN(value) ? nan : formatType(Math.abs(value), precision);
 
           // Trim insignificant zeros.
           if (trim) value = formatTrim(value);
@@ -6327,7 +6327,7 @@ p small {
     switch (specifier.type) {
       case "s": {
         var value = Math.max(Math.abs(start), Math.abs(stop));
-        if (specifier.precision == null && !isNaN(precision = precisionPrefix(step, value))) specifier.precision = precision;
+        if (specifier.precision == null && !Number.isNaN(precision = precisionPrefix(step, value))) specifier.precision = precision;
         return formatPrefix(specifier, value);
       }
       case "":
@@ -6335,12 +6335,12 @@ p small {
       case "g":
       case "p":
       case "r": {
-        if (specifier.precision == null && !isNaN(precision = precisionRound(step, Math.max(Math.abs(start), Math.abs(stop))))) specifier.precision = precision - (specifier.type === "e");
+        if (specifier.precision == null && !Number.isNaN(precision = precisionRound(step, Math.max(Math.abs(start), Math.abs(stop))))) specifier.precision = precision - (specifier.type === "e");
         break;
       }
       case "f":
       case "%": {
-        if (specifier.precision == null && !isNaN(precision = precisionFixed(step))) specifier.precision = precision - (specifier.type === "%") * 2;
+        if (specifier.precision == null && !Number.isNaN(precision = precisionFixed(step))) specifier.precision = precision - (specifier.type === "%") * 2;
         break;
       }
     }
@@ -7377,7 +7377,7 @@ p small {
 
   function parseIsoNative(string) {
     var date = new Date(string);
-    return isNaN(date) ? null : date;
+    return Number.isNaN(date) ? null : date;
   }
 
   var parseIso = +new Date("2000-01-01T00:00:00.000Z")
@@ -7427,7 +7427,7 @@ p small {
       if (callback != null && typeof callback !== "function") throw new Error("invalid callback: " + callback);
       while (++i < n) {
         if (t = (typename = T[i]).type) _[t] = set(_[t], typename.name, callback);
-        else if (callback == null) for (t in _) _[t] = set(_[t], typename.name, null);
+        else if (callback == null) for (let t in _) _[t] = set(_[t], typename.name, null);
       }
 
       return this;
@@ -8778,7 +8778,7 @@ p small {
     static get observedAttributes() {return ['min', 'max', 'value', 'step', 'ticks', 'origin', 'tickValues', 'tickLabels']; }
 
     attributeChangedCallback(attr, oldValue, newValue) {
-      if (isNaN(newValue) || newValue === undefined || newValue === null) return;
+      if (Number.isNaN(newValue) || newValue === undefined || newValue === null) return;
       if (attr == 'min') {
         this.min = +newValue;
         this.setAttribute('aria-valuemin', this.min);

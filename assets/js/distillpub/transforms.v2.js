@@ -793,7 +793,7 @@
     const src = bibliographyTag.getAttribute('src');
     if (src) {
       const path = data.inputDirectory + '/' + src;
-      const text = fs.readFileSync(path, 'utf-8');
+      const text = fs.readFileSync(path, 'utf8');
       const bibliography = parseBibtex(text);
       const scriptTag = dom.createElement('script');
       scriptTag.type = 'text/json';
@@ -1367,7 +1367,7 @@
       , target    = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE]
       , key, own, out;
     if(IS_GLOBAL)source = name;
-    for(key in source){
+    for(let key in source){
       // contains in native
       own = !IS_FORCED && target && target[key] !== undefined;
       if(own && key in exports)continue;

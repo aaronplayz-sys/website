@@ -38,7 +38,7 @@ $(document).ready(function() {
     $(this).contents().find("head").append(cssLink);
 
     if (theme == "dark") {
-      $(this).bind("load",function(){
+      $(this).on("load",function(){
         $(this).contents().find("body").attr({
           "data-jp-theme-light": "false",
           "data-jp-theme-name": "JupyterLab Dark"});

@@ -9,5 +9,6 @@
         "img-fluid",
         "nobara",
         "norbara"
-    ]
+    ],
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font Mono', Consolas, 'Courier New', monospace"
 }
