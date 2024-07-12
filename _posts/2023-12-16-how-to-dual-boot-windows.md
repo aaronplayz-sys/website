@@ -21,12 +21,12 @@ Before we get started, there are a few things that I assume you have on hand, ha
 
 First, you want to navigate to your choice of Linux distribution website and save the `ISO file` somewhere you can `easily find` it. For this guide, I am going to use Nobara Linux as an example.
 
-{% include figure.html path="assets/img/how-to-dual-boot-windows/nobara-homepage.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/nobara-homepage.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
   Nobara homepage
 </div>
 
-{% include figure.html path="assets/img/how-to-dual-boot-windows/nobara-downloads.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/nobara-downloads.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
   Nobara's downloads page
 </div>
@@ -37,14 +37,14 @@ To keep it simple, we are going to use balena etcher to write our image (the ISO
 
 Go to [https://etcher.balena.io/](https://etcher.balena.io/) and download the installer, then open the file and install the application as normal, accept all defaults.
 
-{% include figure.html path="assets/img/how-to-dual-boot-windows/balena-etcher-download-page.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/balena-etcher-download-page.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
   balena etcher's download section
 </div>
 
 After installing balena etcher, go ahead and insert your thumb drive into your computer, then open the app if it is not yet open already.
 
-{% include figure.html path="assets/img/how-to-dual-boot-windows/balena-etcher.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/balena-etcher.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
   The application should look like this when open
 </div>
@@ -53,13 +53,13 @@ Click on "Flash from file" button and locate your downloaded ISO file and click 
 
 <div class="row mt-3"> 
   <div class="col-sm mt-3 mt-md-0"> 
-    {% include figure.html path="assets/img/how-to-dual-boot-windows/flash-from-file.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/flash-from-file.png" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
   <div class="col-sm mt-3 mt-md-0"> 
-    {% include figure.html path="assets/img/how-to-dual-boot-windows/select-file.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/select-file.png" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
   <div class="col-sm mt-3 mt-md-0"> 
-    {% include figure.html path="assets/img/how-to-dual-boot-windows/selected-file.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/selected-file.png" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
 <div class="caption"> 
@@ -70,10 +70,10 @@ Before you continue, if you have any data on your thumb drive that you like to k
 
 <div class="row mt-3"> 
   <div class="col-sm mt-3 mt-md-0"> 
-    {% include figure.html path="assets/img/how-to-dual-boot-windows/choose-drive.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/choose-drive.png" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/how-to-dual-boot-windows/flash.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/flash.png" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
 <div class="caption"> 
@@ -92,10 +92,10 @@ Once you are successfully booted off your thumb drive, you should see an applica
 
 <div class="row mt-3"> 
   <div class="col-sm mt-3 mt-md-0"> 
-    {% include figure.html path="assets/img/how-to-dual-boot-windows/grub-screen.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/grub-screen.png" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/how-to-dual-boot-windows/install-screen.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/install-screen.png" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
 <div class="caption"> 
