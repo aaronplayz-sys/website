@@ -3,7 +3,7 @@ layout: post
 title: Made my own whitelist for adlists
 date: 2022-07-10
 description: Here I go into why I made my own list and why you may need to aswell.
-tags: 
+tags:
 categories: posts
 ---
 

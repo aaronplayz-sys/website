@@ -21,7 +21,7 @@ Now there's a difference between the two. One fact of course you are going to ha
 
 #### Or if you are willing, buy a raspberrypi 4
 
-If you don't have the resources or don't want to have to pay a monthly fee a raspberrypi 4 is an excellent choice! Please keep in mind that the price tends to be around $100 or more as of all the crisis that has happened this year (2022). For the newbies(I mean to be disrespectful) I recommend this starter kit [raspberry pi 4 starter max kit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html) from canakit. Or you can freely choose any kit from here: [https://www.canakit.com/raspberry-pi/pi-4-kits](https://www.canakit.com/raspberry-pi/pi-4-kits)  
+If you don't have the resources or don't want to have to pay a monthly fee a raspberrypi 4 is an excellent choice! Please keep in mind that the price tends to be around $100 or more as of all the crisis that has happened this year (2022). For the newbies(I mean to be disrespectful) I recommend this starter kit [raspberry pi 4 starter max kit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html) from canakit. Or you can freely choose any kit from here: [https://www.canakit.com/raspberry-pi/pi-4-kits](https://www.canakit.com/raspberry-pi/pi-4-kits)
 
 After you got your raspberrypi 4, you can tinker around with it and do stuff like running your own wordpress website off of it. There's alot of opportunity with this credit card sized board. If you want inspiration or some guides go ahead and check out Pi [My Life Up](https://pimylifeup.com/), they have DIY projects, tutorials, and guides articles. I used that site myself!
 

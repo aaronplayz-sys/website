@@ -16,7 +16,9 @@ Or go ahead and clone my repo and start tinkering! Be sure to know Node.js, Type
 > It should be noted that I have archived this GitHub repository and is no longer maintained by me due to putting more time to making cogs for Red Discord bot as this is much simpler option for me and supports slash commands! Anyone is still free to fork and use Ranger.
 
 {% raw %}
+
 ```bash
 git clone https://github.com/aaronplayz-sys/ranger.git
 ```
+
 {% endraw %}

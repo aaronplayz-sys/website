@@ -30,10 +30,10 @@
       institution: Valencia College
       year: 2022-now
       description:
-       - title: Relevant Coursework
-         contents:
-           - Cisco Network Essentials
-           - Install and configure Window Server
+        - title: Relevant Coursework
+          contents:
+            - Cisco Network Essentials
+            - Install and configure Window Server
 
 # - title: Experience
 #   type: time_table
@@ -73,7 +73,7 @@
   contents:
     - title: CompTIA ITF+ Certification
       year: 2021
-      description: CompTIA IT Fundamentals (ITF+) is an introduction to basic IT knowledge and skills. 
+      description: CompTIA IT Fundamentals (ITF+) is an introduction to basic IT knowledge and skills.
     - title: My website aaronplayzgaming.com
       year: 2020-now
     - title: ESB (Entrepreneurship and Small Business) Certified
@@ -93,7 +93,7 @@
   type: time_table
   contents:
     - year: Not Avaliable
-      items: 
+      items:
         - 2 ND place in STEM competition
     - year: 2022
       items:
@@ -106,7 +106,7 @@
 #   type: nested_list
 #   contents:
 #     - title: Topic 1.
-#       items: 
+#       items:
 #         - Description 1.
 #         - Description 2.
 #     - title: Topic 2.
@@ -145,4 +145,3 @@
     - Web Development
     - Network Security
     - VMware Workstation
-    

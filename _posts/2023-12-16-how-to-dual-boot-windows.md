@@ -22,11 +22,13 @@ Before we get started, there are a few things that I assume you have on hand, ha
 First, you want to navigate to your choice of Linux distribution website and save the `ISO file` somewhere you can `easily find` it. For this guide, I am going to use Nobara Linux as an example.
 
 {% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/nobara-homepage.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
 <div class="caption">
   Nobara homepage
 </div>
 
 {% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/nobara-downloads.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
 <div class="caption">
   Nobara's downloads page
 </div>
@@ -38,6 +40,7 @@ To keep it simple, we are going to use balena etcher to write our image (the ISO
 Go to [https://etcher.balena.io/](https://etcher.balena.io/) and download the installer, then open the file and install the application as normal, accept all defaults.
 
 {% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/balena-etcher-download-page.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
 <div class="caption">
   balena etcher's download section
 </div>
@@ -45,6 +48,7 @@ Go to [https://etcher.balena.io/](https://etcher.balena.io/) and download the in
 After installing balena etcher, go ahead and insert your thumb drive into your computer, then open the app if it is not yet open already.
 
 {% include figure.liquid loading="eager" path="assets/img/how-to-dual-boot-windows/balena-etcher.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
 <div class="caption">
   The application should look like this when open
 </div>
@@ -82,7 +86,7 @@ Before you continue, if you have any data on your thumb drive that you like to k
 
 ## Installing the OS
 
-Congrats, you just flashed an operating system to your thumb drive, yay! Now time to install that operating system to your spare drive. Restart your computer and press your BIOS key to enter the bios, the most common key is the delete key aka Del on your keyboard. Find your way around the menu and look for boot override section, then select your thumb drive and press enter. This will boot you off of the thumb drive. 
+Congrats, you just flashed an operating system to your thumb drive, yay! Now time to install that operating system to your spare drive. Restart your computer and press your BIOS key to enter the bios, the most common key is the delete key aka Del on your keyboard. Find your way around the menu and look for boot override section, then select your thumb drive and press enter. This will boot you off of the thumb drive.
 
 ### Grub bad shim signature
 
