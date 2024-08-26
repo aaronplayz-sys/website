@@ -12,6 +12,7 @@ category: Other
 My bot was originally just a set of commands in just one big file. That is until I found Red Discord Bot that helps with the ground layer. From there, I customized it to my liking. Yes, I am using work that others have done and using it. Still, I also wrote my commands for the bot and also maintained code that others made but never updated them. Plus, some command creators are using other platforms that I do not have an account. I do not claim 100% credit for those, I maintain them only for the use case for the features I want in a bot without paying a dime.
 
 ## Notable features with my bot
+
 - YouTube channel notifications
 - Twitch livestream notifications (1-minute delay after channel goes live, API restrictions)
 - Most commands are hybrid (supports the traditional prefix command and slash commands)
