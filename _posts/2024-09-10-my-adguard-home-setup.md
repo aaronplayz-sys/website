@@ -62,7 +62,7 @@ Query logs rotation: 30 days
 > Set the rotation lower if you wish.
 {: .block-tip }
 
-Enable statistics(on by default):
+Enable statistics (on by default):
 
 Statistics retention: 30 days
 
@@ -88,3 +88,122 @@ Statistics retention: 30 days
 </div>
 
 ### DNS settings
+
+#### Upstream DNS servers:
+
+```bash
+h3://dns.cloudflare.com/dns-query
+h3://1.1.1.1/dns-query
+h3://1.0.0.1/dns-query
+h3://[2606:4700:4700::1111]/dns-query
+h3://[2606:4700:4700::1001]/dns-query
+h3://unfiltered.adguard-dns.com/dns-query
+h3://94.140.14.140/dns-query
+h3://94.140.14.141/dns-query
+h3://dns.nextdns.io/
+```
+
+> ##### TIP
+>
+> h3 is DNS-over-HTTPS with forced HTTP/3 and no fallback to HTTP/2 or below
+{: .block-tip }
+
+Set mode to Parallel requests
+
+> ##### TIP
+>
+> This helps to speed up resolving to hit the fastest DNS server
+{: .block-tip }
+
+#### Fallback DNS servers:
+
+```bash
+9.9.9.9
+```
+
+#### Bootstrap DNS servers:
+
+```bash
+1.1.1.1
+1.0.0.1
+2606:4700:4700::1111
+2606:4700:4700::1001
+94.140.14.140
+94.140.14.141
+2a10:50c0::1:ff
+2a10:50c0::2:ff
+```
+
+> ##### TIP
+>
+> Needed since DNS-over-HTTPS servers are specified for upstream
+{: .block-tip }
+
+#### DNS server configuration:
+
+Rate limit: 20 (default)
+
+> ##### TIP
+>
+> Rate limit is per client/device.
+{: .block-tip }
+
+Subnet prefix length for IPv4 addresses: 24 (default)
+
+Subnet prefix length for IPv6 addresses: 56 (default)
+
+**Leave EDNS client subnet disabled or disable if enabled**
+
+Enable DNSSEC
+
+Blocking mode: Null IP
+
+> ##### TIP
+>
+> AdGuard Home understands several types of syntax, Null IP ensures what we want blocked is blocked
+{: .block-tip }
+
+Blocked response TTL: 10
+
+#### DNS cache configuration:
+
+Cache size (in bytes):
+```bash
+10000000
+```
+
+Leave override minimum and maximum TTL empty
+
+Enable Optimistic caching
+
+> ##### TIP
+>
+> I recommend clearing the cache occasionally if loading times feel slow.
+{: .block-tip }
+
+#### Access settings:
+
+Feel free to utilize this section, can be handy if the DNS server is reachable from outside your local network.
+
+Leave version.bind, id.server, and hostname.bind filled in the disallowed domains section.
+
+<div class="row mt-3"> 
+  <div class="col-sm mt-3 mt-md-0"> 
+    {% include figure.liquid loading="eager" path="assets/img/adguard-home-setup/DNS-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/adguard-home-setup/DNS-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/adguard-home-setup/DNS-3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/adguard-home-setup/DNS-4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/adguard-home-setup/DNS-5.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+<div class="caption"> 
+  Screenshot's for reference
+</div>
