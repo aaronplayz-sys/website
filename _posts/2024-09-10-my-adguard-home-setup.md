@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Adguard Home DNS Setup
-date: 2024-09-10
+date: 2024-09-12
 description: For a while I have been expeirmenting my configurations, now I feel like sharing my journey and my configurations.
 tags: Linux, DNS
 categories: posts
