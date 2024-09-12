@@ -21,7 +21,7 @@ Sure using providers like AdGuard DNS or NextDNS are awesome. The only factor th
 
 ## The release of AdGuard Home
 
-When this software came out, I decided to try it out and deployed it on my network. To me this software has a more modern take on handling DNS request and the ability to use DNS-Over-HTTPS and DNS-Over-TLS protocol. Something that pihole can not do out of the box without you having to set up additional software to use DNS-Over-HTTPS. 
+When this software came out, I decided to try it out and deployed it on my network. To me this software has a more modern take on handling DNS request and the ability to use DNS-Over-HTTPS and DNS-Over-TLS protocol. Something that pihole can not do out of the box without you having to set up additional software to use DNS-Over-HTTPS.
 
 AdGuard Home can handle different types rules when it comes to blocking IP's and domains. It understands traditional rules used in ad blocking extensions, host-style (IP addresses), or just a list of domain names.
 
@@ -86,6 +86,8 @@ Statistics retention: 30 days
 <div class="caption"> 
   Screenshot's for reference
 </div>
+
+## Settings
 
 ### DNS settings
 
@@ -168,6 +170,7 @@ Blocked response TTL: 10
 #### DNS cache configuration:
 
 Cache size (in bytes):
+
 ```bash
 10000000
 ```
@@ -207,3 +210,102 @@ Leave version.bind, id.server, and hostname.bind filled in the disallowed domain
 <div class="caption"> 
   Screenshot's for reference
 </div>
+
+### Encryption settings
+
+This requires for you to have a domain to use if you want to use DNS-over-HTTPS or DNS-over-TLS. Adguard has made a guide to set up encryption. You can this at [https://github.com/AdguardTeam/AdGuardHome/wiki/Encryption](https://github.com/AdguardTeam/AdGuardHome/wiki/Encryption).
+
+### Client settings
+
+This setting is particularly useful if you want to customize blocked services, set different DNS upstreams, and set identifiers. This is handy if you utilize the allow client feature in the DNS settings page.
+
+### DHCP settings
+
+I do not personally utilize this feature in particular. You can learn more about it at [https://github.com/AdguardTeam/AdGuardHome/wiki/DHCP](https://github.com/AdguardTeam/AdGuardHome/wiki/DHCP)
+
+## Filters
+
+This is how the software understand what to block and what to not block, and can also preform rewrites
+
+### DNS blocklists
+
+Any list specified here will block the domains that are listed.
+
+Some of these lists can be added by clicking the "Add blocklist" then click "Choose from the list"
+
+{% include figure.liquid loading="eager" path="assets/img/adguard-home-setup/Blocklist-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+<div class="caption">
+  When you click "Add blocklist" Select "Choose from the list"
+</div>
+
+Lucky for us the lists I am using are in this list.
+
+Go ahead and put a checkmark on the following:
+
+- HaGeZi's Pro Blocklist
+- WindowsSpyBlocker
+- Dandilion Sprout's Anti-Malware List
+- HaGeZi's Threat Intelligence Feeds
+
+These lists should give you an overall good protection against ads, trackers, and malware. However, **not all ads** can be **blocked at the DNS level**. You will need a extension/addon to take care of the ads that aren't blocked by AdGuard Home.
+
+### DNS allowlists
+
+Any list here will allow blocked domains to be resolved. Unlike the blocklists page, there isn't any built-in lists to choose from. The easy way to whitelist domain is to click unblock on the request that was blocked in the query log page.
+
+Alternatively you can host your list on GitHub or anywhere the .txt file is accessible. You can refer to my make a whitelist post [here](https://www.aaronplayzgaming.com/blog/2022/make_a_whitelist/) to learn how to write one.
+
+### DNS rewrites
+
+This lets you rewite domain names to an IP of your choice. Useful if you are running a home lab. For example, you can use .local as this will only resolve within your local network. It can also stop domains like .zip that either redirects to a scam site or execute malware on your computer.
+
+Add the following domains to the page exactly as you see it in the table below.
+
+| Domain       | Answer    |
+| ------------ | --------- |
+| `*.zip`      | `0.0.0.0` |
+| `*.cfd`      | `0.0.0.0` |
+| `*.discount` | `0.0.0.0` |
+| `*.gdn`      | `0.0.0.0` |
+| `*.loan`     | `0.0.0.0` |
+| `*.loans`    | `0.0.0.0` |
+| `*.ooo`      | `0.0.0.0` |
+| `*.sbs`      | `0.0.0.0` |
+
+The `*` is used as a wildcard, targeting every domain regardless if the domain has a subdomain. The answer `0.0.0.0` leads to nowhere, thus being unable to resolve the domain.
+
+### Blocked services
+
+This is a personal preference, I encourage you to look through this list and toggle the website/service that you want blocked. There is a feature if you should want to pause this filter on a schedule.
+
+### Custom filtering rules
+
+Wanted to know where your selection goes when you unblock or block a domain from the query log is saved? It is saved here! Nothing much else to mention here besides for the domains that I have blocked in addition to the blocklists.
+
+```bash
+||acfeedbackws.icloud.com^
+||api-adservices.apple.com^
+||feedbackws.fe.apple-dns.net^
+||feedbackws.icloud.com^
+||iadsdk.apple.com^
+||notes-analytics-events.apple.com^
+||notes-analytics-events.news.apple-dns.net^
+||weather-analytics-events.apple.com^
+||weather-analytics-events.news.apple-dns.net^
+||syndication.twitter.com^
+||events.gfe.nvidia.com^
+||mask.icloud.com^
+```
+
+## Wrap up
+
+This is it, my config. Feel free to use it as a base or use it as is.
+
+## Sources
+
+AdguardTeam. (2023a, April 18). DHCP. GitHub. https://github.com/AdguardTeam/AdGuardHome/wiki/DHCP
+
+AdguardTeam. (2023b, August 30). Encryption. GitHub. https://github.com/AdguardTeam/AdGuardHome/wiki/Encryption
+
+yokoffing. (2022). GitHub - yokoffing/NextDNS-Config: Setup guide for NextDNS, a DoH proxy with advanced capabilities. GitHub. https://github.com/yokoffing/NextDNS-Config
