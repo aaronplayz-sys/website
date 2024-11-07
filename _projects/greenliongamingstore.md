@@ -13,7 +13,7 @@ Source code: [GitHub](https://github.com/Green-Lion-Gaming/GreenLionGamingWebsit
 
 Green Lion Gaming got its name from the team name our professor gave us. The five of us decided to set up an online game store that would be similar to Steam.
 
-## What kind of class/course that would require a team to create something like this scratch?
+## What kind of class/course that would require a team to create something like this from scratch?
 
 IT Capstone CIS-2910C-13439 is a required course for AS programs at Valencia College. It helps students prepare for the kinds of things they'll encounter in the workplace on a team.
 
